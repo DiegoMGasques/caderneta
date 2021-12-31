@@ -1,6 +1,6 @@
 {
   "name": "caderneta",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "bin": "dist/index.js",
   "files": [
@@ -17,7 +17,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@caderneta/local-api": "^1.0.0",
+    "@caderneta/local-api": "^1.0.1",
     "commander": "^8.3.0"
   },
   "devDependencies": {

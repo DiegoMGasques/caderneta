@@ -1,7 +1,6 @@
 {
   "name": "@caderneta/local-client",
   "version": "1.0.1",
-  "private": true,
   "publishConfig": {
     "access": "public"
   },

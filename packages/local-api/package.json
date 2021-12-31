@@ -1,0 +1,31 @@
+{
+  "name": "@caderneta/local-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "start": "tsc --watch --preserveWatchOutput",
+    "prepublishOnly": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "@caderneta/local-client": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "http-proxy-middleware": "^2.0.1"
+  }
+}
